@@ -1,0 +1,5 @@
+from android.tests.enter_class.test_student_enter_evc_class_native import TestStudentEnterEvcClass
+
+tests_enter_class_testcases = [
+	TestStudentEnterEvcClass
+]

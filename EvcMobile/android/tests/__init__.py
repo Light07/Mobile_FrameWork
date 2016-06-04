@@ -1,0 +1,9 @@
+from android.tests.enter_class.test_student_enter_evc_class_native import TestStudentEnterEvcClass
+from android.tests.login.test_login_with_correct_account import TestLoginWithCorrectAccount
+from android.tests.login.test_login_with_wrong_username_and_password import TestLoginWithWrongUsernameAndPassword
+
+alltestcases = [
+	TestStudentEnterEvcClass,
+	TestLoginWithCorrectAccount,
+	TestLoginWithWrongUsernameAndPassword
+]

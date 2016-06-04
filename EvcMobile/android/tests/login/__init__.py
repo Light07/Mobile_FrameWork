@@ -1,0 +1,7 @@
+from android.tests.login.test_login_with_correct_account import TestLoginWithCorrectAccount
+from android.tests.login.test_login_with_wrong_username_and_password import TestLoginWithWrongUsernameAndPassword
+
+tests_login_testcases = [ 
+	TestLoginWithCorrectAccount,
+	TestLoginWithWrongUsernameAndPassword
+]

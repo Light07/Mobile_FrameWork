@@ -1,0 +1,2 @@
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+/Applications/Appium.app/Contents/Resources/node/bin/node /Applications/Appium.app/Contents/Resources/node_modules/appium/bin/appium.js --address "127.0.0.1" --command-timeout "7200" --debug-log-spacing --platform-version "9.2" --platform-name "iOS" --app "/Users/Tails/Documents/Mobile Testing For Mac/Eclipse Projects/EVC Room/app/evc.app" --udid "fc0e17acfb4b0f6636eeb8a4e3f7f61b440df681" --no-reset --show-ios-log --device-name "iPhone 5s" --native-instruments-lib > ./log/ios_appium_log

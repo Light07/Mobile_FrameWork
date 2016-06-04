@@ -1,0 +1,2 @@
+
+start /b "" "{node_exe_path}" "{appium_js_path}" --address "{server_ip}" --port "{port}" --command-timeout "{command_timeout}" --platform-name "{platform_name}" --platform-version "{platform_version}" --device-name "{device_name}" --app "{app}" --no-reset --log-no-color > "{log_path}"

@@ -1,0 +1,3 @@
+ios_webkit_debug_proxy -u 443555aab18655718f22dbcaa0e58b48206be1fe:27753 &
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin;
+/Applications/Appium.app/Contents/Resources/node/bin/node /Applications/Appium.app/Contents/Resources/node_modules/appium/bin/appium.js --address "127.0.0.1" --port "4723" --command-timeout "7200" --debug-log-spacing --platform-version "9.0.2" --platform-name "iOS" --app "/Users/user/PycharmProjects/EvcMobile/apps/evc.app" --udid "443555aab18655718f22dbcaa0e58b48206be1fe" --no-reset --show-ios-log --device-name "Jenkins's iPhone" --native-instruments-lib > /Users/user/PycharmProjects/EvcMobile/common/../log/ios_appium_log &
